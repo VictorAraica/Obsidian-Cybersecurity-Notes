@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "27d280b07bae9826",
+    "type": "split",
+    "children": [
+      {
+        "id": "faaf052f25091d49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8b93b83aebe0f5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enumeration/Tools/PSPY.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b3c65eddbfe7fecb",
+    "type": "split",
+    "children": [
+      {
+        "id": "44c5d5f36fcd3740",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e13c796600ebaba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3edb55407cbd871d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de82c526b111a847",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b25f8698e76b84ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e4d0991f9a56836",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc227ffed4b0920b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Enumeration/Tools/PSPY.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "303bb63fb4c1e995",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Enumeration/Tools/PSPY.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5386a16ecf39f44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "82d82718d9e9edd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Enumeration/Tools/PSPY.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f8b93b83aebe0f5a",
+  "lastOpenFiles": [
+    "Enumeration/Tools/Linux Smart Enumeration (LSE).md",
+    "Enumeration/Tools/Nmap.md",
+    "Enumeration/Tools/PSPY.md",
+    "Notes/Markdown-Cheatsheet.md",
+    "Enumeration/Tools/Arp-Scan.md",
+    "Notes/markdown-cheat-sheet.md",
+    "Notes/Markdown-Here-Cheatsheet.md",
+    "Notes/Other-Markdown-Tools.md",
+    "Notes/Markdown.md",
+    "markdown-here.wiki/Development-Notes.md",
+    "markdown-here.wiki/Compatibility.md",
+    "markdown-here.wiki/Home.md",
+    "markdown-here.wiki/Press,-Posts,-Reviews,-Etc..md",
+    "markdown-here.wiki/Reviews.md",
+    "markdown-here.wiki/Tips-and-Tricks.md",
+    "markdown-here.wiki/Troubleshooting.md",
+    "Notes/images/syntax-highlighting-theme-switch.png",
+    "Notes/images/primary-styling-css-reset.png",
+    "Notes/images/copyhtml-chrome.gif",
+    "Notes/images/chrome-dev-background.gif",
+    "Notes/images",
+    "markdown-here.wiki",
+    "Markdown-Cheatsheet,md",
+    "Markdown-Cheatsheet",
+    "Notes",
+    "Enumeration/Tools",
+    "Enumeration"
+  ]
+}
