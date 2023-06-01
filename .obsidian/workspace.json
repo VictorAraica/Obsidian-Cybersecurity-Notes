@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06265c71009dfb8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnerabilities/SQL Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b25f8698e76b84ad",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Tools/PSPY.md",
+                "file": "Vulnerabilities/SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Tools/PSPY.md",
+                "file": "Vulnerabilities/SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Tools/PSPY.md"
+                "file": "Vulnerabilities/SQL Injection.md"
               }
             }
           }
@@ -146,11 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8b93b83aebe0f5a",
+  "active": "2e13c796600ebaba",
   "lastOpenFiles": [
+    "Enumeration/Tools/PSPY.md",
+    "Vulnerabilities/SQL Injection.md",
+    "Vulnerabilities",
     "Enumeration/Tools/Linux Smart Enumeration (LSE).md",
     "Enumeration/Tools/Nmap.md",
-    "Enumeration/Tools/PSPY.md",
     "Notes/Markdown-Cheatsheet.md",
     "Enumeration/Tools/Arp-Scan.md",
     "Notes/markdown-cheat-sheet.md",

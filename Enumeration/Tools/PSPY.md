@@ -9,4 +9,3 @@ pspy is a command line tool designed to snoop on processes without need for root
 The tool gathers the info from procfs scans. Inotify watchers placed on selected parts of the file system trigger these scans to catch short-lived processes.
 
 ---------------------------
-
