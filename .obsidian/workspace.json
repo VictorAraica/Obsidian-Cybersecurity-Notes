@@ -23,16 +23,24 @@
             "id": "06265c71009dfb8d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4ef6012c4746b7c1",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Vulnerabilities/SQL Injection.md",
+                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/SQL Injection.md",
+                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vulnerabilities/SQL Injection.md",
+                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vulnerabilities/SQL Injection.md"
+                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md"
               }
             }
           }
@@ -159,8 +167,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e13c796600ebaba",
+  "active": "4ef6012c4746b7c1",
   "lastOpenFiles": [
+    "Vulnerabilities/SQLInjection/BigQuery Injection.md",
+    "Vulnerabilities/SQLInjection/SQL Injection.md",
+    "Vulnerabilities/SQLInjection/README.md",
+    "Vulnerabilities/SQLInjection/MSSQL Injection.md",
+    "Vulnerabilities/SQLInjection/MySQL Injection.md",
+    "Vulnerabilities/SQLInjection/OracleSQL Injection.md",
+    "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
+    "Vulnerabilities/SQLInjection/SQLite Injection.md",
     "Enumeration/Tools/PSPY.md",
     "Vulnerabilities/SQL Injection.md",
     "Vulnerabilities",

