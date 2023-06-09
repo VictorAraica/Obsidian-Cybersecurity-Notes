@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "faaf052f25091d49",
+        "id": "456b3a7ef563b5a4",
         "type": "tabs",
         "children": [
           {
-            "id": "f8b93b83aebe0f5a",
+            "id": "dec2446025f07770",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Tools/PSPY.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06265c71009dfb8d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4ef6012c4746b7c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
+                "file": "Vulnerabilities/XSS/Cross-site scripting (XSS).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
+                "file": "Vulnerabilities/XSS/Cross-site scripting (XSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
+                "file": "Vulnerabilities/XSS/Cross-site scripting (XSS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vulnerabilities/SQLInjection/PostgreSQL Injection.md"
+                "file": "Vulnerabilities/XSS/Cross-site scripting (XSS).md"
               }
             }
           }
@@ -167,15 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ef6012c4746b7c1",
+  "active": "dec2446025f07770",
   "lastOpenFiles": [
-    "Vulnerabilities/SQLInjection/BigQuery Injection.md",
+    "Vulnerabilities/XSS/Cross-site scripting (XSS).md",
+    "Vulnerabilities/XSS",
     "Vulnerabilities/SQLInjection/SQL Injection.md",
+    "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
+    "Vulnerabilities/SQLInjection/BigQuery Injection.md",
     "Vulnerabilities/SQLInjection/README.md",
     "Vulnerabilities/SQLInjection/MSSQL Injection.md",
     "Vulnerabilities/SQLInjection/MySQL Injection.md",
     "Vulnerabilities/SQLInjection/OracleSQL Injection.md",
-    "Vulnerabilities/SQLInjection/PostgreSQL Injection.md",
     "Vulnerabilities/SQLInjection/SQLite Injection.md",
     "Enumeration/Tools/PSPY.md",
     "Vulnerabilities/SQL Injection.md",
